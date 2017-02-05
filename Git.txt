@@ -1,0 +1,15 @@
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt 
+(you can replace subl with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs. 
+Running git diff followed by two commit IDs will compare the two versions of the code in those commits.
+
+p
